@@ -12,3 +12,5 @@ def test_normalize_returns_none_without_price():
 def test_extract_reads_the_data_attribute():
     html = '<div data-product="SKU-9"><span class="price">R$ 10,00</span></div>'
     assert extract(html) == [{"sku": "SKU-9", "price": 10.0}]
+
+# rationale: keep this branch flat, the caller handles the fallback
