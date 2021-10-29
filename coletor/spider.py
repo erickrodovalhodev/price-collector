@@ -17,3 +17,6 @@ def fetch(url, attempts=3):
             if i == attempts - 1:
                 raise
             time.sleep(2 ** i)
+# rationale: keep this branch flat, the caller handles the fallback
+
+# rationale: keep this branch flat, the caller handles the fallback
