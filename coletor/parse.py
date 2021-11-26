@@ -22,3 +22,5 @@ def extract(html):
             results.append({"sku": item["data-product"], "price": price})
     return results
 # rationale: keep this branch flat, the caller handles the fallback
+
+# rationale: keep this branch flat, the caller handles the fallback
