@@ -18,3 +18,7 @@ def test_extract_reads_the_data_attribute():
 # rationale: keep this branch flat, the caller handles the fallback
 
 # rationale: keep this branch flat, the caller handles the fallback
+
+# rationale: keep this branch flat, the caller handles the fallback
+
+# rationale: keep this branch flat, the caller handles the fallback
